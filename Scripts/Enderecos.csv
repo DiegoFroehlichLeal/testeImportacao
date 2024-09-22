@@ -1,0 +1,46 @@
+﻿ID_ENDERECO;ID_PACIENTE;ENDERECO;CEP;BAIRRO;CIDADE;ESTADO;DATA_CRIACAO
+1;1;Rua das Flores, 123;01234-567;Vila Mariana;São Paulo;SP;15/01/2023 10:15
+2;2;Avenida Paulista, 1578;01310-200;Bela Vista;São Paulo;SP;23/01/2023 14:30
+3;3;Rua XV de Novembro, 45;02011-250;Centro;São Paulo;SP;02/02/2023 09:12
+4;4;Rua São Bento, 765;01011-200;Sé;São Paulo;SP;14/02/2023 16:45
+5;5;Avenida das Nações Unidas, 3000;04578-000;Brooklin;São Paulo;SP;20/02/2023 11:05
+6;6;Rua Carlos Gomes, 678;06030-123;Bela Vista;Osasco;SP;28/02/2023 17:55
+7;7;Rua João Batista, 890;07034-110;Vila Galvão;Guarulhos;SP;03/03/2023 13:22
+8;6;Avenida dos Autonomistas, 555;06150-090;Centro;Osasco;SP;08/03/2023 09:45
+9;8;Rua do Comércio, 234;01012-200;Sé;São Paulo;SP;15/03/2023 15:34
+10;9;Rua Senador Queirós, 1250;01209-010;República;São Paulo;SP;22/03/2023 18:47
+11;10;Avenida Brigadeiro Faria Lima, 112;01452-000;Pinheiros;São Paulo;SP;29/03/2023 07:14
+12;7;Rua Augusta, 470;01304-001;Consolação;São Paulo;SP;05/04/2023 20:19
+13;13;Avenida Santo Amaro, 8900;04783-901;Santo Amaro;São Paulo;SP;12/04/2023 12:30
+14;14;Rua dos Andradas, 765;01030-000;Sé;São Paulo;SP;19/04/2023 09:10
+15;15;Rua Liberdade, 123;01503-001;Liberdade;São Paulo;SP;25/04/2023 14:20
+16;16;Avenida dos Bandeirantes, 2000;04571-100;Vila Olímpia;São Paulo;SP;02/05/2023 17:29
+17;32;Rua Barão de Itapetininga, 456;01042-001;República;São Paulo;SP;10/05/2023 13:45
+18;2;Rua São João, 234;01035-000;Santa Ifigênia;São Paulo;SP;18/05/2023 16:10
+19;33;Avenida Rebouças, 1570;05401-200;Pinheiros;São Paulo;SP;22/05/2023 08:40
+20;26;Rua Clélia, 950;05042-000;Lapa;São Paulo;SP;29/05/2023 19:22
+21;6;Rua Nossa Senhora de Fátima, 300;06020-230;Centro;Osasco;SP;03/06/2023 10:11
+22;9;Avenida Celso Garcia, 1980;03063-000;Brás;São Paulo;SP;09/06/2023 15:25
+23;4;Rua Serra de Bragança, 560;03318-000;Tatuapé;São Paulo;SP;14/06/2023 12:33
+24;11;Rua Borges de Figueiredo, 300;03110-010;Mooca;São Paulo;SP;20/06/2023 08:22
+25;11;Rua dos Trilhos, 1200;03171-010;Mooca;São Paulo;SP;26/06/2023 17:50
+26;11;Rua Visconde de Parnaíba, 2345;03164-300;Mooca;São Paulo;SP;01/07/2023 09:11
+27;1;Rua Guaianases, 90;01204-000;Santa Cecília;São Paulo;SP;08/07/2023 19:22
+28;22;Rua da Consolação, 400;01302-000;Consolação;São Paulo;SP;14/07/2023 11:30
+29;31;Rua Itapicuru, 750;05006-000;Perdizes;São Paulo;SP;20/07/2023 14:15
+30;32;Rua Vinte e Quatro de Maio, 890;01041-000;República;São Paulo;SP;26/07/2023 08:55
+31;5;Rua Pedro II, 333;07041-010;Vila Galvão;Guarulhos;SP;02/08/2023 13:41
+32;19;Rua Cincinato Braga, 200;01333-010;Bela Vista;São Paulo;SP;09/08/2023 10:30
+33;23;Rua Mário de Andrade, 777;01234-009;Higienópolis;São Paulo;SP;15/08/2023 19:00
+34;28;Avenida Pacaembu, 540;01234-000;Pacaembu;São Paulo;SP;21/08/2023 14:20
+35;21;Rua Haddock Lobo, 290;01414-001;Cerqueira César;São Paulo;SP;28/08/2023 18:15
+36;17;Rua Sabará, 320;01156-200;Barra Funda;São Paulo;SP;03/09/2023 09:05
+37;32;Rua Cotoxó, 444;05021-000;Perdizes;São Paulo;SP;10/09/2023 12:55
+38;27;Avenida Ibirapuera, 3000;04029-900;Moema;São Paulo;SP;16/09/2023 14:35
+39;6;Rua Vergueiro, 2300;04101-200;Vila Mariana;São Paulo;SP;22/09/2023 10:22
+40;18;Rua das Palmeiras, 100;05007-000;Barra Funda;São Paulo;SP;28/09/2023 11:42
+41;3;Avenida São João, 900;01036-000;Santa Ifigênia;São Paulo;SP;05/10/2023 16:14
+42;29;Rua Oratório, 1500;03210-000;Parque da Mooca;São Paulo;SP;12/10/2023 13:22
+43;7;Rua Casa do Ator, 350;04546-000;Vila Olímpia;São Paulo;SP;19/10/2023 17:12
+44;25;Rua Lopes Trovão, 720;07095-010;Jardim Santa Mena;Guarulhos;SP;26/10/2023 09:31
+45;24;Avenida Brasil, 490;01431-000;Jardim América;São Paulo;SP;02/11/2023 14:45

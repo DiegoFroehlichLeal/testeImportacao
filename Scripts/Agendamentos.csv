@@ -1,0 +1,89 @@
+﻿ID_AGENDAMENTO;ID_PACIENTE;DATA_AGENDA;DURACAO_AGENDA;STATUS_AGENDA;PROCEDIMENTO;DENTISTA;DATA_AGENDAMENTO
+1;5;10/01/2023 09:15;30;atendido;Limpeza;Dr. Claudio Duarte;08/01/2023 14:30
+2;3;15/01/2023 14:00;60;confirmado;Canal Radicular;Dra. Ana Paula Duarte;12/01/2023 09:45
+3;12;20/01/2023 11:45;15;desmarcado;Consulta Inicial;Dra. Ana Patrícia;18/01/2023 13:12
+4;7;25/01/2023 16:30;45;faltou;Extração;Dr. Claudio Duarte;22/01/2023 10:50
+5;20;30/01/2023 10:15;90;atendido;Limpeza;Dra. Ana Paula Duarte;25/01/2023 11:22
+6;2;05/02/2023 13:00;60;confirmado;Canal Radicular;Dra. Ana Patrícia;02/02/2023 15:47
+7;19;10/02/2023 09:45;30;atendido;Clareamento;Dr. Claudio Duarte;07/02/2023 17:20
+8;9;15/02/2023 12:00;15;confirmado;Consulta Inicial;Dra. Ana Paula Duarte;11/02/2023 09:30
+9;14;20/02/2023 15:30;45;desmarcado;Extração;Dra. Ana Patrícia;17/02/2023 14:10
+10;29;25/02/2023 11:00;30;atendido;Limpeza;Dr. Claudio Duarte;21/02/2023 16:40
+11;4;01/03/2023 16:15;60;confirmado;Canal Radicular;Dra. Ana Paula Duarte;27/02/2023 18:15
+12;6;06/03/2023 09:30;45;faltou;Clareamento;Dra. Ana Patrícia;02/03/2023 09:50
+13;15;11/03/2023 12:45;15;desmarcado;Consulta Inicial;Dr. Claudio Duarte;08/03/2023 11:55
+14;28;16/03/2023 14:00;90;atendido;Extração;Dra. Ana Paula Duarte;12/03/2023 16:20
+15;31;21/03/2023 10:30;30;confirmado;Limpeza;Dra. Ana Patrícia;18/03/2023 13:22
+16;10;26/03/2023 16:45;60;faltou;Canal Radicular;Dr. Claudio Duarte;22/03/2023 10:15
+17;13;31/03/2023 09:15;45;atendido;Clareamento;Dra. Ana Paula Duarte;28/03/2023 09:35
+18;24;05/04/2023 11:00;15;confirmado;Consulta Inicial;Dra. Ana Patrícia;01/04/2023 14:50
+19;16;10/04/2023 13:45;60;desmarcado;Extração;Dr. Claudio Duarte;06/04/2023 12:55
+20;33;15/04/2023 15:30;30;confirmado;Limpeza;Dra. Ana Paula Duarte;11/04/2023 13:12
+21;18;20/04/2023 09:00;90;faltou;Canal Radicular;Dra. Ana Patrícia;17/04/2023 14:40
+22;22;25/04/2023 16:15;45;atendido;Clareamento;Dr. Claudio Duarte;21/04/2023 10:22
+23;21;30/04/2023 11:45;15;confirmado;Consulta Inicial;Dra. Ana Paula Duarte;26/04/2023 16:30
+24;8;05/05/2023 14:00;60;desmarcado;Extração;Dra. Ana Patrícia;01/05/2023 11:12
+25;11;10/05/2023 09:30;30;confirmado;Limpeza;Dr. Claudio Duarte;07/05/2023 09:50
+26;32;15/05/2023 16:45;45;faltou;Canal Radicular;Dra. Ana Paula Duarte;12/05/2023 17:35
+27;30;20/05/2023 10:15;60;atendido;Clareamento;Dra. Ana Patrícia;16/05/2023 11:22
+28;23;25/05/2023 13:00;15;desmarcado;Consulta Inicial;Dr. Claudio Duarte;21/05/2023 14:45
+29;26;30/05/2023 15:45;90;confirmado;Extração;Dra. Ana Paula Duarte;25/05/2023 09:50
+30;25;04/06/2023 09:00;45;faltou;Limpeza;Dra. Ana Patrícia;30/05/2023 11:12
+31;27;09/06/2023 11:15;30;confirmado;Canal Radicular;Dr. Claudio Duarte;04/06/2023 12:47
+32;17;14/06/2023 14:00;60;atendido;Clareamento;Dra. Ana Paula Duarte;10/06/2023 14:22
+33;1;19/06/2023 16:30;15;confirmado;Consulta Inicial;Dra. Ana Patrícia;15/06/2023 09:35
+34;3;24/06/2023 09:15;90;desmarcado;Extração;Dr. Claudio Duarte;20/06/2023 10:20
+35;9;29/06/2023 11:00;45;confirmado;Limpeza;Dra. Ana Paula Duarte;25/06/2023 16:50
+36;15;04/07/2023 13:45;30;faltou;Canal Radicular;Dra. Ana Patrícia;30/06/2023 10:10
+37;24;09/07/2023 15:30;60;confirmado;Clareamento;Dr. Claudio Duarte;05/07/2023 13:40
+38;7;14/07/2023 09:00;15;desmarcado;Consulta Inicial;Dra. Ana Paula Duarte;10/07/2023 16:55
+39;19;19/07/2023 16:15;45;atendido;Extração;Dra. Ana Patrícia;14/07/2023 09:12
+40;14;24/07/2023 11:45;90;confirmado;Limpeza;Dr. Claudio Duarte;20/07/2023 09:40
+41;28;29/07/2023 14:00;60;desmarcado;Canal Radicular;Dra. Ana Paula Duarte;25/07/2023 13:55
+42;6;03/08/2023 09:15;30;atendido;Clareamento;Dra. Ana Patrícia;30/07/2023 09:20
+43;10;08/08/2023 11:00;45;confirmado;Consulta Inicial;Dr. Claudio Duarte;04/08/2023 10:15
+44;11;13/08/2023 13:45;15;desmarcado;Extração;Dra. Ana Paula Duarte;09/08/2023 16:25
+45;20;18/08/2023 15:30;60;confirmado;Limpeza;Dra. Ana Patrícia;14/08/2023 13:15
+46;18;23/08/2023 09:00;90;faltou;Canal Radicular;Dr. Claudio Duarte;19/08/2023 15:20
+47;2;28/08/2023 16:15;45;confirmado;Clareamento;Dra. Ana Paula Duarte;24/08/2023 09:50
+48;5;02/09/2023 11:45;15;desmarcado;Consulta Inicial;Dra. Ana Patrícia;28/08/2023 16:12
+49;13;07/09/2023 14:00;60;confirmado;Extração;Dr. Claudio Duarte;03/09/2023 10:30
+50;16;12/09/2023 09:15;90;atendido;Limpeza;Dra. Ana Paula Duarte;07/09/2023 13:45
+51;32;17/09/2023 11:00;30;confirmado;Canal Radicular;Dra. Ana Patrícia;13/09/2023 11:55
+52;22;22/09/2023 13:45;45;desmarcado;Clareamento;Dr. Claudio Duarte;17/09/2023 12:50
+53;17;27/09/2023 15:30;60;confirmado;Consulta Inicial;Dra. Ana Paula Duarte;22/09/2023 10:40
+54;4;02/10/2023 09:00;15;desmarcado;Extração;Dra. Ana Patrícia;28/09/2023 11:15
+55;29;07/10/2023 16:15;90;atendido;Limpeza;Dr. Claudio Duarte;03/10/2023 16:10
+56;8;12/10/2023 11:45;30;confirmado;Canal Radicular;Dra. Ana Paula Duarte;09/10/2023 12:30
+57;30;17/10/2023 14:00;45;desmarcado;Clareamento;Dra. Ana Patrícia;13/10/2023 09:40
+58;25;22/10/2023 09:15;60;confirmado;Consulta Inicial;Dr. Claudio Duarte;18/10/2023 16:15
+59;27;27/10/2023 11:00;15;desmarcado;Extração;Dra. Ana Paula Duarte;23/10/2023 09:22
+60;26;01/11/2023 13:45;90;atendido;Limpeza;Dra. Ana Patrícia;28/10/2023 12:50
+61;1;06/11/2023 15:30;30;confirmado;Canal Radicular;Dr. Claudio Duarte;02/11/2023 16:40
+62;3;11/11/2023 09:00;45;confirmado;Clareamento;Dra. Ana Paula Duarte;07/11/2023 10:15
+63;7;16/11/2023 16:15;60;desmarcado;Consulta Inicial;Dra. Ana Patrícia;11/11/2023 09:45
+64;20;21/11/2023 11:45;90;confirmado;Extração;Dr. Claudio Duarte;16/11/2023 11:12
+65;6;26/11/2023 14:00;15;atendido;Limpeza;Dra. Ana Paula Duarte;21/11/2023 16:35
+66;12;01/12/2023 09:15;60;confirmado;Canal Radicular;Dra. Ana Patrícia;27/11/2023 09:50
+67;9;06/12/2023 16:30;45;confirmado;Clareamento;Dr. Claudio Duarte;02/12/2023 09:30
+68;15;11/12/2023 11:45;30;desmarcado;Consulta Inicial;Dra. Ana Paula Duarte;06/12/2023 10:50
+69;2;16/12/2023 14:00;15;confirmado;Extração;Dra. Ana Patrícia;12/12/2023 15:12
+70;14;21/12/2023 09:15;60;atendido;Limpeza;Dr. Claudio Duarte;17/12/2023 13:22
+71;32;26/12/2023 11:00;45;confirmado;Canal Radicular;Dra. Ana Paula Duarte;22/12/2023 14:15
+72;22;31/12/2023 13:45;30;confirmado;Clareamento;Dra. Ana Patrícia;27/12/2023 09:55
+73;5;05/01/2024 15:30;15;desmarcado;Consulta Inicial;Dr. Claudio Duarte;02/01/2024 16:20
+74;18;10/01/2024 09:00;90;confirmado;Extração;Dra. Ana Paula Duarte;06/01/2024 09:45
+75;11;15/01/2024 16:15;45;confirmado;Limpeza;Dra. Ana Patrícia;11/01/2024 13:35
+76;4;20/01/2024 11:45;60;desmarcado;Canal Radicular;Dr. Claudio Duarte;16/01/2024 09:15
+77;27;25/01/2024 14:00;15;confirmado;Clareamento;Dra. Ana Paula Duarte;20/01/2024 14:12
+78;24;30/01/2024 09:15;30;desmarcado;Consulta Inicial;Dra. Ana Patrícia;26/01/2024 15:22
+79;21;04/02/2024 16:30;45;confirmado;Extração;Dr. Claudio Duarte;31/01/2024 10:30
+80;13;09/02/2024 11:00;90;confirmado;Limpeza;Dra. Ana Paula Duarte;04/02/2024 13:12
+81;1;14/02/2024 13:45;30;confirmado;Canal Radicular;Dra. Ana Patrícia;10/02/2024 16:10
+82;16;19/02/2024 15:30;60;confirmado;Clareamento;Dr. Claudio Duarte;14/02/2024 14:22
+83;30;24/02/2024 09:00;45;confirmado;Consulta Inicial;Dra. Ana Paula Duarte;19/02/2024 09:30
+84;28;29/02/2024 16:15;15;confirmado;Extração;Dra. Ana Patrícia;25/02/2024 09:55
+85;33;05/03/2024 11:45;90;confirmado;Limpeza;Dr. Claudio Duarte;01/03/2024 16:15
+86;19;10/03/2024 14:00;30;confirmado;Canal Radicular;Dra. Ana Paula Duarte;06/03/2024 13:35
+87;26;15/03/2024 09:15;45;confirmado;Clareamento;Dra. Ana Patrícia;10/03/2024 14:22
+88;31;20/03/2024 16:30;15;confirmado;Consulta Inicial;Dr. Claudio Duarte;16/03/2024 09:10
