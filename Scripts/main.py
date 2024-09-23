@@ -12,10 +12,10 @@ def limpar_numeros(valor):
 # Função para carregar dados do arquivo CSV
 def carregar_dados(arquivo_csv):
     df = pd.read_csv(arquivo_csv, sep=';')
-    print("Colunas disponíveis:", df.columns.tolist())  # Imprime os nomes das colunas
+    print("Colunas disponíveis:", df.columns.tolist())
     return df
 
-# Função para processar CPFs e RGs, tratar valores ausentes
+# Função para processar CPFs e RGs e tratar valores ausentes
 def processar_dados(df):
     df['CPF_PACIENTE'] = df['CPF_PACIENTE'].apply(limpar_numeros)
     df['RG_PACIENTE'] = df['RG_PACIENTE'].apply(limpar_numeros)
@@ -43,6 +43,7 @@ def processar_enderecos(df):
 
 # Função para processar contatos
 def processar_contatos(df_contatos):
+
     df_contatos['DDD'] = df_contatos['DDD'].apply(limpar_numeros)
     df_contatos['CONTATO'] = df_contatos['CONTATO'].apply(limpar_numeros)
     df_contatos['CONTATO_COMPLETO'] = df_contatos['DDD'] + df_contatos['CONTATO']
@@ -87,6 +88,7 @@ def criar_pasta(nome_pasta):
 
 # Função principal para criar Pacientes.xlsx e Agendamentos.xlsx
 def main():
+
     # Variáveis de caminho dos arquivos
     caminho_pacientes = 'Pacientes.csv'
     caminho_enderecos = 'Enderecos.csv'
@@ -113,10 +115,12 @@ def main():
     df_finais_contatos = processar_contatos(df_contatos)
     
     # Unir dados de pacientes, endereços e contatos
-    df_final = pd.merge(df_limpo, df_ultimo_endereco[['ID_PACIENTE', 'ENDERECO', 'NUMERO', 'CEP', 'BAIRRO', 'CIDADE', 'ESTADO']], on='ID_PACIENTE', how='left')
-    df_final = pd.merge(df_final, df_finais_contatos, on='ID_PACIENTE', how='left')
+    df_final = pd.merge(df_limpo, df_ultimo_endereco[['ID_PACIENTE', 'ENDERECO', 'NUMERO', 'CEP', 'BAIRRO', 'CIDADE', 'ESTADO']], on='ID_PACIENTE', how='left', validate='one_to_one')
+    df_final = pd.merge(df_final, df_finais_contatos, on='ID_PACIENTE', how='left', validate='one_to_one')
     
     df_final = df_final[['ID_PACIENTE', 'NOME_PACIENTE', 'CPF_PACIENTE', 'RG_PACIENTE', 'ENDERECO', 'NUMERO', 'CEP', 'BAIRRO', 'CIDADE', 'ESTADO', 'Telefone Fixo', 'Celular', 'Outros Contatos']]
+    df_final.columns = ['Id Paciente', 'Nome do Paciente', 'CPF', 'RG', 'Endereço', 'Número', 'CEP', 'Bairro', 'Cidade', 'Estado', 'Celular', 'Telefone Fixo', 'Outros Contatos']
+    print("Colunas de df_final:", df_final.columns)
     df_final.to_excel(os.path.join(nome_pasta, 'Pacientes.xlsx'), index=False)
     print("Planilha Pacientes.xlsx criada.")
     
@@ -137,10 +141,14 @@ def main():
         }
         df_agendamentos['STATUS_AGENDA'] = df_agendamentos['STATUS_AGENDA'].map(status_mapping).fillna(df_agendamentos['STATUS_AGENDA'])
         
+        df_agendamentos.rename(columns={'ID_PACIENTE': 'Id Paciente'}, inplace=True)
+       
         # Mesclar agendamentos com nome do paciente
-        df_agendamentos_final = pd.merge(df_agendamentos, df_final[['ID_PACIENTE', 'NOME_PACIENTE']], on='ID_PACIENTE', how='left')
-        df_agendamentos_final = df_agendamentos_final[['ID_PACIENTE', 'NOME_PACIENTE', 'DENTISTA', 'DATA_AGENDA', 'Hora Início', 'Hora Final', 'STATUS_AGENDA', 'PROCEDIMENTO']]
+        df_agendamentos_final = pd.merge(df_agendamentos, df_final[['Id Paciente', 'Nome do Paciente']], on='Id Paciente', how='left', validate='many_to_one')      
+        df_agendamentos_final = df_agendamentos_final[['Id Paciente', 'Nome do Paciente', 'DENTISTA', 'DATA_AGENDA', 'Hora Início', 'Hora Final', 'STATUS_AGENDA', 'PROCEDIMENTO']]       
         df_agendamentos_final.columns = ['Id Paciente', 'Nome do Paciente', 'Dentista', 'Data Agenda', 'Hora Início', 'Hora Final', 'Status', 'Procedimento']
+
+
         
         df_agendamentos_final.to_excel(os.path.join(nome_pasta, 'Agendamentos.xlsx'), index=False)
         print("Planilha Agendamentos.xlsx criada.")
